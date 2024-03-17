@@ -13,3 +13,6 @@ main {
 figure {
   padding: 0.5em;
 }
+img {
+  border: solid 1px white;
+}
