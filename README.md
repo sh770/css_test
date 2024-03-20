@@ -1,7 +1,13 @@
-# תרגיל ראשון
+# תרגילי CSS
 
-# https://sh770.github.io/css_test
+## תרגיל ראשון
 
-# תרגיל שני
+### https://sh770.github.io/css_test
 
-# https://sh770.github.io/css_test/02
+## תרגיל שני
+
+### https://sh770.github.io/css_test/02
+
+## תרגיל שלישי
+
+### https://sh770.github.io/css_test/03
