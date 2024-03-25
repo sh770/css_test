@@ -2,7 +2,7 @@
 
 ## תרגיל ראשון
 
-### https://sh770.github.io/css_test
+### https://sh770.github.io/css_test/01
 
 ## תרגיל שני
 
