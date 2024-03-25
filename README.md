@@ -16,18 +16,42 @@
 
 ### <https://sh770.github.io/css_test/04> -->
 
-<!-- ## תרגיל חמישי
+<!-- ***
+***
 
-### <https://sh770.github.io/css_test/05> -->
+## פרויקט סיום
 
-<!-- ## תרגיל שישי
+***
+*** -->
 
-### <https://sh770.github.io/css_test/06> -->
+<!-- ## פרויקט ראשון
 
-<!-- ## תרגיל שביעי
+### <https://sh770.github.io/css_test/p1> -->
 
-### <https://sh770.github.io/css_test/07> -->
+<!-- ## פרויקט שני
 
-<!-- ## תרגיל שמיני
+### <https://sh770.github.io/css_test/p2> -->
 
-### <https://sh770.github.io/css_test/08> -->
+<!-- ## פרויקט שלישי
+
+### <https://sh770.github.io/css_test/p3> -->
+
+<!-- ## פרויקט רביעי
+
+### <https://sh770.github.io/css_test/p4> -->
+
+<!-- ## פרויקט חמישי
+
+### <https://sh770.github.io/css_test/p5> -->
+
+<!-- ## פרויקט שישי
+
+### <https://sh770.github.io/css_test/p6> -->
+
+<!-- ## פרויקט שביעי
+
+### <https://sh770.github.io/css_test/p7> -->
+
+<!-- ## פרויקט שמיני
+
+### <https://sh770.github.io/css_test/p8> -->
