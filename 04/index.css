@@ -2,14 +2,13 @@ body {
   margin: 0;
   padding: 0;
   background-color: #2a2826;
-  height: 100vh;
+  height: 95vh;
 }
 
 .container {
   background: center / cover url("bg.webp") no-repeat;
-
-  width: 95vw;
-  height: 90vh;
+  height: 85vh;
+  width: 85vw;
   position: relative;
   top: 50%;
   left: 50%;
