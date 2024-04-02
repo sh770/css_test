@@ -12,9 +12,9 @@
 
 ### <https://sh770.github.io/css_test/03>
 
-<!-- ## תרגיל רביעי
+## תרגיל רביעי
 
-### <https://sh770.github.io/css_test/04> -->
+### <https://sh770.github.io/css_test/04>
 
 <!-- ***
 ***

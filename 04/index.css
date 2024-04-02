@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2a2826;
+  height: 100vh;
+}
+
+.container {
+  background: center / cover url("bg.webp") no-repeat;
+
+  width: 95vw;
+  height: 90vh;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tree {
+  background: center / contain url("tree.webp") no-repeat;
+  height: 50vh;
+  position: relative;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.box1 {
+  background: center / contain url("box1.webp") no-repeat;
+  height: 10vh;
+  position: relative;
+  top: 95%;
+  left: 57%;
+  transform: translate(-50%, -50%);
+}
+.box2 {
+  background: center / contain url("box2.webp") no-repeat;
+  height: 10vh;
+  position: relative;
+  top: 77%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+}
+.box3 {
+  background: center / contain url("box3.webp") no-repeat;
+  height: 10vh;
+  position: relative;
+  top: 61%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.box4 {
+  background: center / contain url("box4.webp") no-repeat;
+  height: 10vh;
+  position: relative;
+  top: 34%;
+  left: 44%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.box5 {
+  background: center / contain url("box5.webp") no-repeat;
+  height: 10vh;
+  position: relative;
+  top: 17%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
