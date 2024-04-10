@@ -1,18 +1,23 @@
 body {
   direction: rtl;
   font-family: "Noto Sans Hebrew", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "width" 100;
   text-align: center;
   margin: 0;
   background-color: bisque;
 }
+
 header {
   height: 4vh;
 }
 
 main {
   background-color: aqua;
-  height: 85vh;
-  width: 95vw;
+  height: 80vh;
+  width: 80vw;
   margin: auto;
 }
 
