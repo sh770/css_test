@@ -18,51 +18,46 @@ body {
 .tree {
   background: center / contain url("tree.webp") no-repeat;
   height: 50vh;
-  position: relative;
+  width: 50vh;
+  position: absolute;
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.box1 {
-  background: center / contain url("box1.webp") no-repeat;
+
+img {
   height: 10vh;
-  position: relative;
-  top: 95%;
-  left: 57%;
+  width: 10vh;
+}
+.present-box1,
+.present-box2,
+.present-box3,
+.present-box4,
+.present-box5 {
+  position: absolute;
   transform: translate(-50%, -50%);
 }
-.box2 {
-  background: center / contain url("box2.webp") no-repeat;
-  height: 10vh;
-  position: relative;
-  top: 77%;
-  left: 53%;
-  transform: translate(-50%, -50%);
+.present-box1 {
+  top: 82%;
+  left: 62%;
 }
-.box3 {
-  background: center / contain url("box3.webp") no-repeat;
-  height: 10vh;
-  position: relative;
-  top: 61%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+.present-box2 {
+  top: 85%;
+  left: 51%;
+}
+.present-box3 {
+  top: 89%;
+  left: 43%;
   z-index: 2;
 }
-.box4 {
-  background: center / contain url("box4.webp") no-repeat;
-  height: 10vh;
-  position: relative;
-  top: 34%;
-  left: 44%;
-  transform: translate(-50%, -50%);
+.present-box4 {
+  top: 87%;
+  left: 30%;
   z-index: 1;
 }
-.box5 {
-  background: center / contain url("box5.webp") no-repeat;
-  height: 10vh;
-  position: relative;
-  top: 17%;
-  left: 47%;
-  transform: translate(-50%, -50%);
-  z-index: 1;
+.present-box5 {
+  top: 84%;
+  left: 20%;
+  z-index: -1;
 }
