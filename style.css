@@ -1,0 +1,21 @@
+body {
+  direction: rtl;
+  font-family: "Noto Sans Hebrew", sans-serif;
+  text-align: center;
+  margin: 0;
+  background-color: bisque;
+}
+header {
+  height: 4vh;
+}
+
+main {
+  background-color: aqua;
+  height: 85vh;
+  width: 85vw;
+  margin: auto;
+}
+
+footer {
+  height: 1vh;
+}
