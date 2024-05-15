@@ -7,29 +7,46 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main>
-      <article >
+    <article class="login">
+      <header>
+        <h1>
+          Sign in to Company
+          <br />
+          <figure>
+            <img src="g.svg" alt="G" />
+          </figure>
+          <figure>
+            <img src="a.svg" alt="A" />
+          </figure>
+          <figure>
+            <img src="f.svg" alt="F" />
+          </figure>
+        </h1>
+      </header>
+      <main>
+        <form>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Email" />
 
-          <form id="loginPage">
-            <h1>Sign in to Company</h1>
-            <header>
-                <figure>G</figure>
-                <figure>A</figure>
-                <figure>F</figure>
-            </header>
-          <label for="email">Email</label>    
-          <input type="email" name="email" id="email" placeholder="Email"/>
           <label for="password">Password</label>
-          <input type="password" name="password" id="password" placeholder="Password" />
-          <label for="remember">Remember me</label>
-          <input type="checkbox" name="remember" id="remember" />
-          <h3>Forgot Password?</h3>
-
-          
-          <button type="submit">Sign in</button>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+          />
         </form>
 
+        <article class="card">
+        <input type="checkbox" class="remember" name="remember" id="remember">
+        <label for="remember">Remember me</label>
+  
+        <em>Forgot Password?</em>
       </article>
-    </main>
+      </main>
+      <footer>
+        <button>Sign in</button>
+      </footer>
+    </article>
   </body>
 </html>
