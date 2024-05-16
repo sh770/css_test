@@ -8,6 +8,7 @@ body {
   text-align: center;
   margin: 0;
   background-color: bisque;
+  line-height: 1;
 }
 
 header {
@@ -24,4 +25,24 @@ main {
 
 footer {
   height: 1vh;
+}
+.project{
+  background-color: rgb(89, 201, 195);
+  border: solid 3px red;
+  border-radius: 100%;
+  width: 300px;
+  margin: auto;
+}
+.project-num a{
+  background-color: rgb(158, 18, 218);
+  color: rgb(181, 186, 30);
+  width: 900px;
+  height: 300px;
+  margin: auto;
+  text-decoration: none;
+  border-radius: 25%;
+}
+
+.project-num :hover{
+  background-color: cadetblue;
 }

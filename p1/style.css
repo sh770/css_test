@@ -1,8 +1,13 @@
-body {
-  background-color: aquamarine;
-  display: flex;
-  font-family: Roboto;
+*{
+  line-height: 1;
 }
+
+body {
+  background-color: rgb(240, 244, 242);
+  display: flex;
+  font-family: Roboto, sans-serif;
+  accent-color: rgb(165, 222, 23);
+  }
 
 .login {
   background-color: rgba(255, 255, 255, 1);
@@ -22,6 +27,7 @@ figure {
   border-radius: 5px;
   background-color: rgba(236, 242, 247, 1);
   justify-content: space-around;
+  flex-wrap: nowrap;
   margin-bottom: 20px;
 }
 
@@ -41,10 +47,11 @@ footer {
   display: flex;
   justify-content: center;
   padding-top: 20%;
-  /* margin-top: 25%; */
-}
-button:hover {
-  border: solid 1px rgba(214, 140, 193, 1);
+  }
+
+header figure :hover {
+  border: solid 3px rgb(86, 81, 180);
+  color: aqua;
 }
 main {
   width: 400px;
@@ -88,8 +95,13 @@ label {
   padding-left: 10px;
 }
 
-input[type="checkbox"] :checked {
-  accent-color: rgba(236, 242, 247, 1);
+/* input[type="checkbox"] :checked {
+  accent-color: rgb(186, 15, 18);
+  border: none;
+  border-radius: 5px;
+} */
+input[type="checkbox"] :enabled {
+  accent-color: rgb(186, 15, 18);
   border: none;
   border-radius: 5px;
 }
@@ -97,7 +109,7 @@ input[type="checkbox"] :checked {
 /* all:unset; */
 
 .remember{
-  accent-color: auto;
+  /* accent-color: auto; */
   background: rgb(14, 195, 14);
   bottom: none;
   border-radius: 5px;
