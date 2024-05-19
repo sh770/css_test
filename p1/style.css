@@ -48,10 +48,6 @@ footer {
   padding-top: 10%;
 }
 
-header figure :hover {
-  border: solid 3px rgb(86, 81, 180);
-  color: aqua;
-}
 main {
   width: 400px;
   display: block;
@@ -115,5 +111,5 @@ p {
   font-size: 16px;
   font-weight: 700;
   line-height: 18.75px;
-  text-align: end;
+  /* text-align: start; */
   }
