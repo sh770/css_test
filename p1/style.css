@@ -28,7 +28,7 @@ figure {
   background-color: rgba(236, 242, 247, 1);
   justify-content: space-around;
   flex-wrap: nowrap;
-  }
+}
 
 H1 {
   color: rgba(0, 0, 0, 1);
@@ -45,7 +45,6 @@ img {
 footer {
   display: flex;
   justify-content: center;
-  padding-top: 10%;
 }
 
 main {
@@ -59,9 +58,9 @@ input {
   border-radius: 5px;
   width: 399px;
   height: 40px;
-  margin-top: 6px;
   margin-bottom: 5px;
-  padding-left: 10px;
+  padding-left: 5px;
+  margin-top: 6px;
 }
 
 button {
@@ -82,22 +81,28 @@ label {
   font-weight: 700;
   line-height: 18.75px;
   color: rgba(0, 0, 0, 1);
+  padding-bottom: 3px;
 }
 ::placeholder {
   color: rgba(164, 164, 164, 1);
   font-size: 16px;
   font-weight: 400;
   line-height: 18.75px;
-  padding-left: 10px;
+  padding-left: 7px;
+}
+input[type="checkbox"] {
+  margin-right: 3px;
+  margin-top: 0px;
 }
 
 .card {
+  margin-top: 90px;
   display: flex;
   justify-content: space-between;
-}
+  }
 
 .remember {
-  bottom: none;
+  
   border-radius: 5px;
   width: 14px;
   height: 14px;
@@ -112,5 +117,4 @@ p {
   font-size: 16px;
   font-weight: 700;
   line-height: 18.75px;
-  /* text-align: start; */
-  }
+}
