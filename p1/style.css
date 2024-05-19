@@ -99,16 +99,17 @@ input[type="checkbox"] {
   margin-top: 90px;
   display: flex;
   justify-content: space-between;
-  }
+  align-items: stretch;
+  }  
 
-.remember {
-  
+.remember {  
   border-radius: 5px;
   width: 14px;
   height: 14px;
 }
 p {
   display: inline-flex;
+  margin-right: 0%;
 }
 .right {
   color: rgba(214, 140, 193, 1);
@@ -116,5 +117,4 @@ p {
   height: 29px;
   font-size: 16px;
   font-weight: 700;
-  line-height: 18.75px;
-}
+  }
