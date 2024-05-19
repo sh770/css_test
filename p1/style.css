@@ -1,4 +1,4 @@
-*{
+* {
   line-height: 1;
 }
 
@@ -7,7 +7,7 @@ body {
   display: flex;
   font-family: Roboto, sans-serif;
   accent-color: rgb(165, 222, 23);
-  }
+}
 
 .login {
   background-color: rgba(255, 255, 255, 1);
@@ -28,8 +28,7 @@ figure {
   background-color: rgba(236, 242, 247, 1);
   justify-content: space-around;
   flex-wrap: nowrap;
-  margin-bottom: 20px;
-}
+  }
 
 H1 {
   color: rgba(0, 0, 0, 1);
@@ -46,8 +45,8 @@ img {
 footer {
   display: flex;
   justify-content: center;
-  padding-top: 20%;
-  }
+  padding-top: 10%;
+}
 
 header figure :hover {
   border: solid 3px rgb(86, 81, 180);
@@ -65,7 +64,7 @@ input {
   width: 399px;
   height: 40px;
   margin-top: 3px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 button {
@@ -95,25 +94,26 @@ label {
   padding-left: 10px;
 }
 
-/* input[type="checkbox"] :checked {
-  accent-color: rgb(186, 15, 18);
-  border: none;
-  border-radius: 5px;
-} */
-input[type="checkbox"] :enabled {
-  accent-color: rgb(186, 15, 18);
-  border: none;
-  border-radius: 5px;
+.card {
+  display: flex;
+  justify-content: space-between;
 }
 
-/* all:unset; */
-
-.remember{
-  /* accent-color: auto; */
-  background: rgb(14, 195, 14);
+.remember {
   bottom: none;
   border-radius: 5px;
-  width: 20px;
-  height: 20px;
-
-} 
+  width: 14px;
+  height: 14px;
+}
+p {
+  display: inline-flex;
+}
+.right {
+  color: rgba(214, 140, 193, 1);
+  width: 141px;
+  height: 29px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.75px;
+  text-align: end;
+  }
