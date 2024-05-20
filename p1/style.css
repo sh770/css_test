@@ -17,7 +17,6 @@ main {
 }
 h1 {
   text-align: center;
-  margin: 40px;
   color: rgba(0, 0, 0, 1);
   font-size: 34px;
   font-weight: 700;
@@ -104,9 +103,18 @@ input[type="checkbox"] {
 a {
   all: unset;
 }
+a:hover{
+  border: 1px solid rgb(89, 10, 193);
+}
+.img:hover{
+  box-sizing: border-box;
+  border: 1px solid rgb(89, 10, 193);
+}
+
 .right {
   color: rgba(214, 140, 193, 1);
   font-size: 16px;
   font-weight: 700;
   line-height: 18.75px;
+  text-decoration: none;
 }
