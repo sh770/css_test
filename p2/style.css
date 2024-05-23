@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(188, 138, 138);
+}
+main {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+figure {
+  width: 800px;
+  height: 800px;
+  position: relative;
+}
+img {
+  max-width: 100%;
+}
+.ball-container {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 48%;
+  /* transform: translate(-50%, -50%); */
+  width: 40px;
+  height: 800px;
+  transform: rotate(0deg);
+  /* background-color: chocolate; */
+}
+.ball {
+  /* opacity: 0.8; */
+  border-radius: 50%;
+  background-color: wheat;
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgb(17, 0, 255);
+  box-sizing: border-box;
+  position: absolute;
+  margin-top: 100px;
+}
