@@ -12,9 +12,10 @@ main {
 }
 
 figure {
-  width: 800px;
-  height: 800px;
-  position: relative;
+  width: 600px;
+  height: 600px;
+  /* position: relative; */
+  /* background-color: #b752ce; */
 }
 img {
   max-width: 100%;
@@ -26,22 +27,20 @@ img {
   left: 48%;
   /* transform: translate(-50%, -50%); */
   width: 40px;
-  height: 800px;
+  height: 600px;
   /* transform: rotate(0deg); */
   /* background-color: chocolate; */
-  /* animation: rotate 15s  ; */
   animation: 3s ease-in 1s 3 alternate rotate;
 }
 .ball {
   /* opacity: 0.8; */
   border-radius: 50%;
   background-color: wheat;
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
   border: 3px solid #b752ce;
-  box-sizing: border-box;
   position: absolute;
-  margin-top: 100px;
+  margin-top: 70px;
   z-index: 5;
 }
 @keyframes rotate {
