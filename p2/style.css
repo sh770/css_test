@@ -25,13 +25,19 @@ img {
   justify-content: center;
   position: absolute;
   left: 48%;
-  /* transform: translate(-50%, -50%); */
   width: 40px;
   height: 600px;
-  /* transform: rotate(0deg); */
+  transform: rotate(-2deg);
   /* background-color: chocolate; */
-  animation: 3s ease-in 1s 3 alternate rotate;
-}
+  animation-name: rotate;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function:linear;
+  animation-fill-mode: forwards;
+  animation-delay: 1.5s;
+  }
+
+
 .ball {
   /* opacity: 0.8; */
   border-radius: 50%;
@@ -45,9 +51,9 @@ img {
 }
 @keyframes rotate {
   from {
-    transform: rotate(0deg);
+    transform: rotate(-2deg);
   }
   to {
-    transform: rotate(93deg);
+    transform: rotate(95deg);
   }
 }
