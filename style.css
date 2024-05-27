@@ -13,6 +13,7 @@ body {
 
 header {
   height: 4vh;
+  margin-top: 40px;
 }
 
 main {
@@ -34,15 +35,27 @@ footer {
   margin: auto;
 }
 .project-num a{
-  background-color: rgb(158, 18, 218);
-  color: rgb(181, 186, 30);
+  background-color: rgb(158, 18, 218 0.1);
+  color: rgb(86, 13, 169);
   width: 900px;
   height: 300px;
-  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
   text-decoration: none;
   border-radius: 25%;
 }
 
 .project-num :hover{
-  background-color: cadetblue;
+  background-color: rgb(112, 220, 34);
+}
+h2{
+  padding-top: 40px;
+}
+a{
+  text-decoration: none;
 }
