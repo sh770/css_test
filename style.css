@@ -3,6 +3,7 @@ body {
   font-family: "Noto Sans Hebrew", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
+  font-size: 3vh;
   font-style: normal;
   font-variation-settings: "width" 100;
   text-align: center;
@@ -32,6 +33,7 @@ footer {
   border: solid 3px red;
   border-radius: 100%;
   width: 300px;
+  height: 80px;
   margin: auto;
 }
 .project-num a{
@@ -39,19 +41,16 @@ footer {
   color: rgb(86, 13, 169);
   width: 900px;
   height: 300px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  /* justify-content: center;
-  align-items: center; */
+  margin: auto;
   text-decoration: none;
   border-radius: 25%;
+  border: dashed 3px rgb(255, 149, 0);
 }
 
 .project-num :hover{
-  background-color: rgb(112, 220, 34);
+  background-color: rgb(204, 21, 236);
+  color: rgb(239, 232, 13);
+  border: solid 3px red;
 }
 h2{
   padding-top: 40px;
