@@ -27,9 +27,9 @@
 
 ### <https://sh770.github.io/css_test/p1>
 
-<!-- ## פרויקט שני
+### פרויקט שני
 
-### <https://sh770.github.io/css_test/p2> -->
+### <https://sh770.github.io/css_test/p2> 
 
 <!-- ## פרויקט שלישי
 
