@@ -1,32 +1,48 @@
 body {
   background-color: rgba(188, 138, 138, 0.381);
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  box-sizing: border-box;
+  
+}
+section {
+  width: 100vw;
+  height: 100vh;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  }
-main {
+  /* background-color: brown; */
   margin: auto;
 }
 
 figure {
   display: flex;
   justify-content: center;
-  margin: 50px auto;
+  margin: auto;
   background: center / contain url("wheel.png") no-repeat;
-  width: 400px;
-  height: 400px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  height: 100vh;
+  /* background-color: chartreuse; */
 }
+
 
 .ball-container {
   display: flex;
   justify-content: center;
-  position: absolute;
-  width: 30px;
-  height: 400px;
-
-
-  /* transform: rotate(0deg); */
+  position: relative;
+  /* margin: auto; */
+  width: 15px;
+  /* height: 400px; */
+  /* height: 80vw; */
+  height: 99%;
+  transform: rotate(0deg);
   /* background-color: #b08ee2; */
   animation: rotate 5s 1 ease-out forwards 2s;
   /* animation-name: rotate;
@@ -35,18 +51,17 @@ figure {
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
   animation-delay: 2s; */
-  }
-
+}
 
 .ball {
   /* opacity: 0.8; */
   border-radius: 50%;
   background-color: wheat;
-  width: 15px;
-  height: 15px;
+  width: 30px;
+  height: 30px;
   border: 1px solid #b752ce;
   position: absolute;
-  margin-top: 45px;
+  margin-top: 100px;
   z-index: 1;
 }
 @keyframes rotate {
@@ -57,3 +72,21 @@ figure {
     transform: rotate(815deg);
   }
 }
+/* @media (width < 615px) {
+  .ball-container {
+    display:flex;
+    justify-content: center;
+    background-color: #9fd11e;
+    height: auto;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .ball {
+    width: 30px;
+    height: 30px;
+    margin-top: 15vh;
+  }
+} */
