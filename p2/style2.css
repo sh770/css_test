@@ -12,8 +12,8 @@ figure {
   justify-content: center;
   align-items: center;
   background: center / contain url("wheel.png") no-repeat;
-  width: 50vmin;
-  height: 50vmin;
+  width: 75vmin;
+  height: 75vmin;
   /* background-color: chartreuse; */
 }
 
@@ -21,7 +21,7 @@ figure {
   display: flex;
   justify-content: center;
   width: 30px;
-  height: 50vmin;
+  height: 75vmin;
   transform: rotate(0deg);
   /* background-color: #b08ee2; */
   animation: rotate 5s 1 ease-out forwards 2s;
