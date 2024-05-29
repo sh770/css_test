@@ -39,7 +39,7 @@ figure {
   width: 2vmin;
   height: 2vmin;
   border: 1px solid #b752ce;
-  margin-top: 6vmin;
+  margin-top: 8vmin;
   z-index: 3;
 }
 @keyframes rotate {
