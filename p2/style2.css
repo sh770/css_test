@@ -7,21 +7,23 @@ body {
   background-color: rgba(61, 122, 10, 0.466);
 }
 
+
 figure {
   display: flex;
   justify-content: center;
   align-items: center;
   background: center / contain url("wheel.png") no-repeat;
-  width: 50vmin;
-  height: 50vmin;
+  width: 75vmin;
+  height: 75vmin;
   /* background-color: chartreuse; */
 }
+
 
 .ball-container {
   display: flex;
   justify-content: center;
   width: 30px;
-  height: 50vmin;
+  height: 75vmin;
   transform: rotate(0deg);
   /* background-color: #b08ee2; */
   animation: rotate 5s 1 ease-out forwards 2s;
@@ -36,10 +38,10 @@ figure {
 .ball {
   border-radius: 50%;
   background-color: wheat;
-  width: 2vmin;
-  height: 2vmin;
+  width: 4vmin;
+  height: 4vmin;
   border: 1px solid #b752ce;
-  margin-top: 6vmin;
+  margin-top: 9vmin;
   z-index: 3;
 }
 @keyframes rotate {
