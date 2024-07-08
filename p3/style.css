@@ -1,48 +1,44 @@
-body {
-  background: rgba(202, 202, 202, 1);
-  display: flex;
-}
-
-.font {
-  font-family: Roboto;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 21.09px;
-  text-align: left;
-  color: rgba(0, 0, 0, 1);
-  width: 196px;
-  height: 34px;
-  top: 312px;
-  left: 694px;
-  gap: 0px;
-  opacity: 0px;
-}
-
-.left-up {
-  position: absolute;
-  width: 783px;
-  height: 199px;
-  top: 286px;
-  left: 661px;
-  gap: 0px;
-  border-radius: 16px;
-  opacity: 0px;
-  background: rgba(255, 255, 255, 1);
-  box-shadow: -2px 7px 20px 0px rgba(0, 0, 0, 0.08);
-}
-.left-box {
-  display: flex;
-  width: 151px;
-  height: 112px;
-  top: 350px;
-  left: 702px;
-  gap: 0px;
-  border-radius: 10px;
-  opacity: 0px;
-  background: rgba(250, 252, 254 , 1);
-  border: 1px solid red;
-}
-.left-container {
+body{
+    margin: 0;
+    background-color: black;
+    height: 100vh;
     display: flex;
-    justify-content: space-around;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+.up{
+    height: 100px;
+    background-color: beige;
+    display: flex;
+    gap:  20px;
+    padding: 20px;
+}
+.center{
+    height: 100px;
+    background-color: beige;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.down{
+    height: 50px;
+    background-color: beige;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card{
+    
+    background-color: blueviolet;
+    border: solid 2px red;
+    display: flex;
+    /* gap: 10px; */
+}
+.left{
+    width: 200px;
+}
+.right{
+    width: 100px;
 }

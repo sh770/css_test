@@ -1,0 +1,45 @@
+body {
+  background: rgba(202, 202, 202, 1);
+  display: flex;
+}
+
+.font {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.09px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+  width: 196px;
+  height: 34px;
+  
+}
+
+.left-up {
+  position: absolute;
+  width: 783px;
+  height: 199px;
+  top: 286px;
+  left: 661px;
+  gap: 0px;
+  border-radius: 16px;
+  opacity: 0px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: -2px 7px 20px 0px rgba(0, 0, 0, 0.08);
+}
+.left-box {
+  display: flex;
+  width: 151px;
+  height: 112px;
+  top: 350px;
+  left: 702px;
+  gap: 0px;
+  border-radius: 10px;
+  opacity: 0px;
+  background: rgba(250, 252, 254 , 1);
+  border: 1px solid red;
+}
+.left-container {
+    display: flex;
+    justify-content: space-around;
+}
