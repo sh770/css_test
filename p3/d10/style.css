@@ -1,3 +1,12 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background: #cacaca;
+}
+
 .number {
   font-family: Roboto;
   font-size: 19px;
@@ -51,15 +60,27 @@
   align-items: center;
 }
 .box:hover {
-  background: rgba(0, 0, 0, 0.093);
+  background: #cacacb;
 }
 .box_add:hover {
-  background: rgba(0, 0, 0, 0.093);
+  background: #cacacb;
 }
 .boxs {
-  border-radius: 10px;
   display: flex;
   flex-direction: row;
   gap: 10px;
   border: solid 1px red;
+  /* padding: 10px; */
+  margin: 10px;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: -2px 7px 20px 0px rgba(0, 0, 0, 0.08);
+  width: 783px;
+  height: 199px;
+  /* top: 286px;
+  left: 661px; */
+  gap: 0px;
+  border-radius: 16px;
+  opacity: 0px;
+  background: rgba(255, 255, 255, 1);
 }
