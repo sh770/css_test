@@ -65,7 +65,7 @@ body {
 .box_add:hover {
   background: #cacacb;
 }
-.boxs {
+.boxes {
               display: flex;
             justify-content: space-between;
             gap: 10px;
