@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #cacaca;
+}
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 90%;
+  max-width: 800px;
+}
+.title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: right;
+  text-indent: 2.7em;
+}
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.box {
+  background-color: rgba(250, 252, 254, 1);
+  border-radius: 4px;
+  padding: 15px;
+  text-align: center;
+  flex: 1;
+}

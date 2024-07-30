@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgba(202, 202, 202, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.up {
+  width: 100vmin;
+  height: 15vmin;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.center {
+  width: 100vmin;
+  height: 40vmin;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.down {
+  width: 100vmin;
+  height: 8vmin;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.left {
+  width: 60vmin;
+  height: 100%;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 1);
+}
+.right {
+  border-radius: 16px;
+  height: 100%;
+  width: 30vmin;
+  background: rgba(255, 255, 255, 1);
+}
+.right:hover {
+  border: 0.5px solid rgb(38, 0, 252);
+}
+.left:hover {
+  border: 0.5px solid rgb(38, 0, 252);
+}
+
+.number {
+  font-family: Roboto;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 22.27px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+}
+.icon {
+  font-family: Roboto;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 22.27px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+}
+.text {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  text-align: center;
+  color: rgba(151, 151, 151, 1);
+}
+.box {
+  background: rgba(250, 252, 254, 1);
+  width: 72px;
+  height: 65px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.box_add {
+  background: rgba(250, 252, 254, 1);
+  width: 72px;
+  height: 65px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.box:hover {
+  background: rgb(202, 202, 203);
+}
+.box_add:hover {
+  background: rgb(202, 202, 203);
+}
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: -2px 7px 20px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  padding: 0.5px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-family: Roboto;
+  color: rgba(0, 0, 0, 1);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.09px;
+  text-align: left;
+  text-indent: 10px;
+}
