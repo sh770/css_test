@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif; /* מגדיר את גופן ברירת המחדל */
+  display: flex; /* משתמש ב-Flexbox לפריסת התוכן */
+  justify-content: center; /* ממרכז את התוכן אופקית */
+  align-items: center; /* ממרכז את התוכן אנכית */
+  height: 100vh; /* מגדיר את גובה הגוף ל-100% של גובה החלון */
+  margin: 0; /* מבטל את השוליים הברירת מחדל */
+  background-color: #f0f0f0; /* מגדיר צבע רקע בהיר */
+}
+.toggle-container {
+  display: flex; /* משתמש ב-Flexbox בתוך המיכל */
+  justify-content: space-between; /* מרווח בין הטקסט למתג */
+  align-items: center; /* מיישר את הפריטים אנכית */
+  background-color: white; /* רקע לבן למיכל */
+  padding: 10px 20px; /* מרווח פנימי */
+  border-radius: 25px; /* פינות מעוגלות */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* צל עדין */
+  width: 250px; /* רוחב קבוע למיכל */
+}
+.toggle-text {
+  font-weight: bold; /* טקסט מודגש */
+  color: #333; /* צבע טקסט כהה */
+}
+.switch {
+  position: relative; /* ממקם את המתג יחסית למיקומו */
+  display: inline-block; /* מציג כאלמנט בתוך השורה */
+  width: 50px; /* רוחב המתג */
+  height: 26px; /* גובה המתג */
+}
+.switch input {
+  opacity: 0; /* מסתיר את תיבת הסימון המקורית */
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute; /* ממקם את המחוון באופן מוחלט בתוך המתג */
+  cursor: pointer; /* משנה את הסמן לצורת יד בעת מעבר עכבר */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc; /* צבע רקע למצב כבוי */
+  transition: 0.4s; /* אנימציה חלקה בעת שינוי מצב */
+  border-radius: 34px; /* פינות מעוגלות למחוון */
+}
+.slider:before {
+  position: absolute; /* ממקם את הכדור הפנימי באופן מוחלט */
+  content: ""; /* יוצר אלמנט ריק */
+  height: 20px; /* גובה הכדור */
+  width: 20px; /* רוחב הכדור */
+  left: 3px; /* מיקום התחלתי משמאל */
+  bottom: 3px; /* מיקום מלמטה */
+  background-color: white; /* צבע הכדור */
+  transition: 0.4s; /* אנימציה חלקה */
+  border-radius: 50%; /* צורת עיגול */
+}
+input:checked + .slider {
+  background-color: #2196f3; /* צבע רקע למצב פעיל */
+}
+input:checked + .slider:before {
+  transform: translateX(24px); /* מזיז את הכדור ימינה במצב פעיל */
+}
